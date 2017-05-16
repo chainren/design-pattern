@@ -1,2 +1,2 @@
-# design-pattern
-java design patterns learning, some demo code.
+# design-patterns
+java design patterns, some demo code.
