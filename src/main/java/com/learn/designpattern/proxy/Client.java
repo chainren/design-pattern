@@ -15,12 +15,12 @@ public class Client {
 	public static void main(String[] args) {
 		IManager manager = new Assistant();
 		// 审批项目
-		String projectName = "资金存管";
+		String projectName = "one Financial System Project";
 		manager.approveProject(projectName);
 		System.out.println("--------------------------------------------------------------");
 		// 分配任务
-		String[] employees = new String[] { "吴风照", "付莹", "张美佳", "郭朝辉", "黄飞飞", "白灵" };
-		String[] tasks = new String[] { "开户", "对账", "账户体系", "购买" };
+		String[] employees = new String[] { "Tom", "Leon", "Lucas", "Finn", "Jonas" };
+		String[] tasks = new String[] { "Product module", "Reconciliation module", "Account module", "Order module" };
 		manager.allocatingResource(employees, tasks);
 	}
 }
